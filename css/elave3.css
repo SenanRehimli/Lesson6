@@ -1,0 +1,45 @@
+.main{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 380px;
+    height: 300px;
+    position: relative;
+}
+.div1{
+    height: 100px;
+    width: 150px;
+    border: 2px solid gray;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+    background-color: white;
+}
+.div2{
+    width: 100px;
+    height: 150px;
+    border: 2px solid gray;
+    position: absolute;
+    left: 125px;
+    top: 90px;
+    z-index: 2;
+    background-color: white;
+}
+.div3{
+    height: 80px;
+    width: 300px;
+    border: 2px solid gray;
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    z-index: 3;
+    background-color: white;
+}
+.div4{
+    width: 80px;
+    height: 250px;
+    border: 2px solid gray;
+    position: absolute;
+    right: 15px;
+    z-index: 4;
+    background-color: white;
+}

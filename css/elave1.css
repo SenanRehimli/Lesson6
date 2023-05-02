@@ -1,0 +1,53 @@
+body{
+    background-color: gray;
+}
+.main{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    z-index: 3;
+    top: 80px;
+    left: 80px;
+}
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    z-index: 1;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: dodgerblue;
+    position: absolute;
+    z-index: 5;
+    left: 130px;
+    top: 60px;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    z-index: 4;
+    top: 30px;
+    left: 110px;
+}
+.pink{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    position: absolute;
+    z-index: 2;
+    top: 60px;
+    left: 35px;
+}

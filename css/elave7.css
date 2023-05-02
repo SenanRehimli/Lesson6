@@ -1,0 +1,25 @@
+#fixed{
+    display: inline-block;
+    width: 400px;
+}
+#sticky{
+    margin-left: 20px;
+    display: inline-block;
+    width: 400px;
+}
+.fixed{
+    height: 40px;
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: pink;
+    position: fixed;
+}
+.sticky{
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: rebeccapurple;
+    position: sticky;
+    top: 25px;
+}
